@@ -7,6 +7,7 @@
 /// Используем стандартное пространство имен
 using namespace std;
 
+
 /** \class Unit - класс описания и методов поля
 */
 class Unit {
@@ -16,7 +17,7 @@ class Unit {
     int numOfUnits;
 
  public:
-    ///- Конструктор по-умолчанию
+    ///- Конструктор по умолчанию
     Unit();
     ///- Конструктор с параметром
     Unit(int);
@@ -132,8 +133,8 @@ int main() {
     cout << endl;
     baseUnit->PrintSymmetrical();
     cout << endl;
-
+    // Пауза в работе программы
     system("pause");
-    return 0;
+    return NULL;
 }
 
